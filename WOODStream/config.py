@@ -37,5 +37,3 @@ class Server:
         "s" if HAS_SSL else "", FQDN, "" if NO_PORT else ":" + str(PORT)
     )
 
-
-
